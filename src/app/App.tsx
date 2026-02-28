@@ -13,8 +13,7 @@ import {
   Users
 } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import myaImg from '/26c4c6d824b28b2bb9e22b119ec297f1e45a2c69.png';
-import heroImg from '/9678094d24b0a68670340c0c32d7c10e9185a630.png';
+
 
 // --- Components ---
 
@@ -76,11 +75,11 @@ const Hero = () => (
         className="relative"
       >
         <div className="rounded-[2rem] overflow-hidden shadow-2xl relative z-10">
-          <ImageWithFallback 
-            src={heroImg}
-            alt="Relatable woman in mid 30s"
-            className="w-full h-auto block"
-          />
+        <ImageWithFallback 
+  src="/9678094d24b0a68670340c0c32d7c10e9185a630.png"
+  alt="Relatable woman in mid 30s"
+  className="w-full h-auto block"
+/>
         </div>
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-stone-200/50 rounded-full blur-3xl -z-0"></div>
         <div className="absolute -bottom-10 -left-10 w-60 h-60 bg-white/40 rounded-full blur-3xl -z-0"></div>
@@ -309,11 +308,11 @@ const AboutMya = () => (
     <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
       <div className="relative group">
         <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl relative z-10 border-[12px] border-stone-50">
-          <ImageWithFallback 
-            src={myaImg}
-            alt="Mya - Christian Life Coach"
-            className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-700"
-          />
+        <ImageWithFallback 
+  src="/26c4c6d824b28b2bb9e22b119ec297f1e45a2c69.png"
+  alt="Mya - Christian Life Coach"
+  className="w-full h-full object-cover grayscale-[15%]"
+/>
         </div>
         <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-stone-100 rounded-full -z-0"></div>
       </div>

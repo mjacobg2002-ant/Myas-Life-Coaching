@@ -362,7 +362,7 @@ const Pricing = () => (
         
         <h3 className="text-2xl font-serif italic mb-2 text-stone-800">Monthly Private Accountability</h3>
         <div className="flex items-baseline justify-center gap-1 mb-10">
-          <span className="text-6xl font-serif text-stone-900">$250</span>
+          <span className="text-6xl font-serif text-stone-900">$350</span>
           <span className="text-stone-400 font-medium">/ month</span>
         </div>
         

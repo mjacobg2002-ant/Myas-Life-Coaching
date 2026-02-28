@@ -13,8 +13,8 @@ import {
   Users
 } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import myaImg from 'figma:asset/26c4c6d824b28b2bb9e22b119ec297f1e45a2c69.png';
-import heroImg from 'figma:asset/9678094d24b0a68670340c0c32d7c10e9185a630.png';
+import myaImg from '/26c4c6d824b28b2bb9e22b119ec297f1e45a2c69.png';
+import heroImg from '/9678094d24b0a68670340c0c32d7c10e9185a630.png';
 
 // --- Components ---
 
